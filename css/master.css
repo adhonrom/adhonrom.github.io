@@ -21,7 +21,7 @@
   font-size: 200px;
 }
 
-.span {
+.p {
   font-weight: 200;
   letter-spacing: 1;
 }
@@ -34,23 +34,32 @@
 }
 .kotak-profil {
   width: 400px;
-  height: 400px;
+  height: 450px;
   background: rgba(0,0,0,0.4);
   padding: 40px;
   color: white;
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 100px;
   text-align: center;
 }
 
 .ikon-sosmed {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .ikon-sosmed a {
   color: white;
+  margin: 10px;
+  text-decoration: none;
+  transition: all ease-in-out 250ms;
+  }
+
+.ikon-sosmed a:hover {
+  color: #b9b9b9;
 }
+
 .garis-tengah {
   width: 400px;
+  margin: 0 auto;
   border-top: 1px solid white;
 }
