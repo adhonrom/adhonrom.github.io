@@ -1,18 +1,19 @@
-/* html {
-  background: url(/home/adhon/Github/adhon/images/background2.jpg) no-repeat center center fixed;
+ html {
+  background: url(background2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-*/
 
-html {
+
+/*html {
   background-color: yellow;
   font-family: 'Helvetica', sans-serif;
   font-family: 'Calibri', sans-serif;
   font-size: small;
 }
+*/
 
 .h1 {
   font-weight: 100;
@@ -34,10 +35,22 @@ html {
 .kotak-profil {
   width: 400px;
   height: 400px;
-  background: rgba(0,100,0,0.4);
+  background: rgba(0,0,0,0.4);
   padding: 40px;
   color: white;
   margin: 0 auto;
   margin-top: 140px;
   text-align: center;
+}
+
+.ikon-sosmed {
+  font-size: 30px;
+}
+
+.ikon-sosmed a {
+  color: white;
+}
+.garis-tengah {
+  width: 400px;
+  border-top: 1px solid white;
 }
